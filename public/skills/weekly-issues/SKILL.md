@@ -28,27 +28,27 @@ Returns every issue, newest first. This sample is generated from the current arc
 
 ```json
 {
-  "count": 278,
-  "englishCount": 278,
-  "latestIssue": 278,
+  "count": 279,
+  "englishCount": 279,
+  "latestIssue": 279,
   "issues": [
     {
-      "issue": 278,
-      "title": "第 278 期 - 大巧若拙",
-      "name": "大巧若拙",
+      "issue": 279,
+      "title": "第 279 期 - 风之谷泉",
+      "name": "风之谷泉",
       "language": "zh-Hans",
-      "date": "2026/08/17",
-      "description": "封面图是周末在上海 CityWalk 时，拍到的一家门店门口的招牌，名字叫“不拙”，让我想到了大巧若拙，形容一个人做事看似朴实、不走捷径，其实藏着大智慧，希望我的产品也是这样的。",
-      "coverImage": "https://cdn.tw93.fun/uPic/27853.JPG",
-      "url": "https://weekly.tw93.fun/posts/278",
-      "markdownUrl": "https://weekly.tw93.fun/posts/278.md",
-      "jsonUrl": "https://weekly.tw93.fun/api/posts/278.json",
+      "date": "2026/08/24",
+      "description": "封面图拍摄于周末去临安风之谷带娃玩水，这地方很空旷，不过周末小孩和大人都很多，娃倒是挺喜欢。远处看，水难得有蓝绿色的感觉，照片拍的是外面的一个大湖。",
+      "coverImage": "https://cdn.fliggy.com/pic/27936.jpg",
+      "url": "https://weekly.tw93.fun/posts/279",
+      "markdownUrl": "https://weekly.tw93.fun/posts/279.md",
+      "jsonUrl": "https://weekly.tw93.fun/api/posts/279.json",
       "translation": {
         "language": "en",
-        "title": "278. Great Skill Appears Clumsy",
-        "url": "https://weekly.tw93.fun/en/posts/278",
-        "markdownUrl": "https://weekly.tw93.fun/en/posts/278.md",
-        "jsonUrl": "https://weekly.tw93.fun/api/en/posts/278.json"
+        "title": "279. Spring in the Valley of the Wind",
+        "url": "https://weekly.tw93.fun/en/posts/279",
+        "markdownUrl": "https://weekly.tw93.fun/en/posts/279.md",
+        "jsonUrl": "https://weekly.tw93.fun/api/en/posts/279.json"
       }
     }
   ]
@@ -62,15 +62,15 @@ For a compact human-readable index of the whole archive, fetch `https://weekly.t
 Append `.md` to any issue URL to get the Markdown source:
 
 ```
-GET https://weekly.tw93.fun/posts/278.md      # Chinese
-GET https://weekly.tw93.fun/en/posts/278.md   # English
+GET https://weekly.tw93.fun/posts/279.md      # Chinese
+GET https://weekly.tw93.fun/en/posts/279.md   # English
 ```
 
 Or take metadata and body together as JSON:
 
 ```
-GET https://weekly.tw93.fun/api/posts/278.json
-GET https://weekly.tw93.fun/api/en/posts/278.json
+GET https://weekly.tw93.fun/api/posts/279.json
+GET https://weekly.tw93.fun/api/en/posts/279.json
 ```
 
 The JSON response carries `contentMarkdown` (the full Markdown body), `translation`, `newerIssue` and `olderIssue`.
