@@ -38,7 +38,7 @@ Returns every issue, newest first. This sample is generated from the current arc
       "name": "喜欢宋体",
       "language": "zh-Hans",
       "date": "2026/08/31",
-      "description": "封面图拍摄于周末去杭州新开的恒隆商场逛了逛，喝了一杯 AITCoffee，味道还不错，看到墙上有这么一个纸窗户，写着宋，我最近产品官网喜欢用这个字体，很古典。",
+      "description": "封面图拍摄于杭州新开的恒隆商场，周末过去逛了逛，喝了一杯 AITCoffee，味道还不错，看到墙上有这么一个纸窗户，上面写着宋字，我最近产品官网喜欢用这个字体，很古典。",
       "coverImage": "https://cdn.tw93.fun/uPic/28049.jpg",
       "url": "https://weekly.tw93.fun/posts/280",
       "markdownUrl": "https://weekly.tw93.fun/posts/280.md",
