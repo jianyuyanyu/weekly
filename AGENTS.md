@@ -22,6 +22,7 @@ Deploy surface: pushing `main` is production. Vercel builds and publishes `weekl
   - `src/aboutMarkdown.ts` plus `src/data/about.*.md` and `src/data/faq.ts` - single source for `/about`, `/en/about` and their `.md` twins.
   - `public/.well-known/` - RFC 9727 API catalog and the Agent Skills index; `public/skills/` - published SKILL.md.
   - `vercel.json` - content types for `.md`/`.jsonl`/`api-catalog`, RFC 8288 `Link` headers, `/api` rewrite, `?mode=agent` redirect.
+- `.github/workflows/verify.yml` - read-only `pnpm test` on pull requests and manual dispatch; it never commits.
 - `.github/workflows/build.yml` - the main-only, daily and on-push content writer: translate missing posts, regenerate indexes and the public Skill from the built API, verify them, make one scoped commit, and ping IndexNow. It does not deploy the site; Vercel does.
 
 ## Commands
@@ -54,7 +55,7 @@ GROK_API_KEY=your_key node scripts/translate_posts.js
 - Let `pnpm sync:content` regenerate `README.md`, `RECENT.md`, `public/posts.json`, and the public Skill after content changes; do not edit them by hand.
 - Translation automation writes missing English posts under `src/pages/en/posts/`; preserve Markdown and frontmatter shape.
 - Issue identity is numeric: Chinese filenames use a two-digit minimum prefix, English filenames a three-digit minimum prefix. `pnpm check:content` rejects alternate spellings and duplicate numeric IDs.
-- `.github/workflows/build.yml` is the single content writer: translate missing English posts, regenerate all indexes and the public Skill, run `pnpm test`, then make one scoped commit. Do not split those writes across independently triggered workflows.
+- `.github/workflows/build.yml` is the single content writer: translate missing English posts, regenerate all indexes and the public Skill with `pnpm sync:content`, gate with `pnpm test:unit` and `pnpm check:content` (the same checks `pnpm test` runs), then make one scoped commit. Do not split those writes across independently triggered workflows.
 
 ## Verification
 
