@@ -13,7 +13,7 @@ date: 2026/05/25
 
 **The Mole desktop client is here**
 <https://mole.fit/>
-Finally, finally, Mole's Mac desktop version is out. The CLI will keep being free and open source forever. The desktop client is for folks who enjoy a more interactive product feel. We recently shipped 1.5, which adds various sprite animations in the menu bar, login-item management, software update management, and the most fun part, fan control, plus more. Head over to the official site for the full rundown. Weekly readers get 20% off with code MOLEWEEKLY. Early-bird price is currently $9.
+Finally, finally, Mole's Mac desktop version is out. The CLI will keep being free and open source forever. The desktop client is for folks who enjoy a more interactive product feel. We recently shipped 1.5, which adds various sprite animations in the menu bar, login-item management, software update management, and the most fun part, fan control, plus more. Head over to the official site for the full rundown.
 
 If you've contributed code to Mole or sponsored me on GitHub, DM me and I'll send a 100% discount code.
 

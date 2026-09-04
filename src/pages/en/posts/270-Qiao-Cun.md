@@ -21,7 +21,7 @@ If a friend of yours needs to update their resume soon, you have to recommend Ka
 <https://mole.fit/>
 This release updates a ton of things, including support for users with accessibility needs. Status and the menu bar are faster and more stable, Software, uninstall, and updates are more complete, Clean is more thorough while still keeping review-first, the privacy check is more accurate, quieter, and smarter, Analyze, Doctor, and Clean Screen are more stable too, and there are quite a few optimizations for fan control on Apple silicon.
 
-It's been exactly one month since Mole's Mac version launched, written in my spare time, and the numbers are kind of fun. In total I wrote 110,000 lines of Swift, including 36,000 lines of test code and 1,983 unit tests, shipped 8 releases, added 145 new features, and supported 9 languages. It's the last day of the early-bird price and MOLEWEEKLY still works, so anyone interested is welcome to give it a try. More surprises to come.
+It's been exactly one month since Mole's Mac version launched, written in my spare time, and the numbers are kind of fun. In total I wrote 110,000 lines of Swift, including 36,000 lines of test code and 1,983 unit tests, shipped 8 releases, added 145 new features, and supported 9 languages. Anyone interested is welcome to give it a try. More surprises to come.
 
 <video width="800px" preload="metadata" controls><source src="https://cdn.tw93.fun/blog/pic/mole318.mp4" type="video/mp4"></video>
 
